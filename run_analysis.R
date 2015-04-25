@@ -21,4 +21,4 @@ avg_data_test <- get_avg_data(subject_activity_test,raw_data_test)
 tidy_data <- arrange(rbind(avg_data_train,avg_data_test),subject_id,activity_name)
 View(tidy_data)
 
-write.csv(tidy_data,file="tidy_data.csv")
+write.csv(tidy_data,file="tidy_data.csv",row.names=F)
