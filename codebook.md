@@ -6,22 +6,22 @@ activity_name describes the activity performed, like standing, walking etc..
 For the rest of the columns,
 * mean_ represents a mean of the measurements
 * time or frequency
- > measurements starting with 't' are time measurements
- > measurements starting with 'f' are frequency measurements
+    > measurements starting with 't' are time measurements
+    > measurements starting with 'f' are frequency measurements
 * different types of measurements
- > BodyAcc = 
- > GravityAcc = 
- > BodyAccJerk = 
- > BodyGyro =
- > BodyGyroJerk =
- > BodyAccMag =
- > GravityAccMag =
- > BodyAccJerkMag =
- > BodyGyroMag =
- > BodyGyroJerkMag =
+    > BodyAcc = 
+    > GravityAcc = 
+    > BodyAccJerk = 
+    > BodyGyro =
+    > BodyGyroJerk =
+    > BodyAccMag =
+    > GravityAccMag =
+    > BodyAccJerkMag =
+    > BodyGyroMag =
+    > BodyGyroJerkMag =
 * what are measurements themselves 
- > mean() = mean or average
- > std() = Standard Deviation
+    > mean() = mean or average
+    > std() = Standard Deviation
 * X,Y & Z - represent the three axis
  
  
