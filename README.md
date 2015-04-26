@@ -6,6 +6,6 @@ The data provided in the zip file contains measurements from 30 volunteers, who 
 
 From the data provided, I produce a single merged dataset combining both the training and test datasets. I also extract only the measurements related to mean and standard deviation. I have also provided descriptive names for the activities and the measurements.
 
-The output data is in csv format, which can be read into R using read.csv
+The output data is in txt format, which can be read into R using read.table
 
-`tidy_data <- read.csv("tidy_data.csv",header =TRUE)`
+`tidy_data <- read.table(file="tidy_data.txt",header=TRUE)`

@@ -54,5 +54,5 @@ avg_data_test <- get_avg_data(subject_activity_test,raw_data_test)
 tidy_data <- arrange(rbind(avg_data_train,avg_data_test),subject_id,activity_name)
 
 ###### ----------------------------- Step 5 ------------------------------- ######
-# Finally, we export the df into a csv file
-write.csv(tidy_data,file="tidy_data.csv",row.names=F)
+# Finally, we export the df into a txt file
+write.table(tidy_data,file="tidy_data.txt",row.names=FALSE)
