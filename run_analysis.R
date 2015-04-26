@@ -16,7 +16,6 @@
 ## ------------------------------ run_analysis.R ------------------------------ ##
 
 library("dplyr")
-setwd("C:/Users/wilsonee/Documents/Coursera/Getting and Cleaning Data/tidydata")
 
 ###### ----------------------------- Step 1 ------------------------------- ######
 # Source the get_subject_activity function. This returns a data frame merging the
