@@ -8,4 +8,4 @@ From the data provided, I produce a single merged dataset combining both the tra
 
 The output data is in csv format, which can be read into R using read.csv
 
-'tidy_data <- read.csv("tidy_data.csv",header =TRUE)'
+`tidy_data <- read.csv("tidy_data.csv",header =TRUE)`
